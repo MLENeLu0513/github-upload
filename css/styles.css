@@ -1,0 +1,33 @@
+header {
+    background-color: aquamarine;
+    
+}
+body {
+    background-color: cadetblue;
+}
+footer {
+    background-color: aqua;
+}
+.navlinks {
+    
+}
+nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 50px; 
+}
+nav > ul > li > a {
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-right: 1px solid rgb(94, 145, 212)168, 166, 166);
+}
+nav > ul > li:first-child a {
+    border-left: 1px solid rgb(94, 145, 212)168, 166, 166);
+}
+nav > ul > li > a:hover {
+    text-decoration: none;
+    background-color: limegreen;
+}
