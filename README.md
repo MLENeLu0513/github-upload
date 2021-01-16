@@ -1,3 +1,2 @@
 # github-upload
-This is my school proto project
-It has my pets in it, past and present
+This is some  1h or so, project of mine, just for fun and learning, nothing special.
