@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(82, 175, 118);
+}
+footer {
+    background-color: aqua;
+}
+.container {
+    text-align: left;
+}
+.container-fluid {
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+} 
+/* Chat containers */
+.container1 {
+    justify-content: center;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container1 img {
+    float: center;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.col-1-3 {
+    width: 320px;
+}
+.foot {
+    padding-left: 400px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+/*
+.Puppy {
+    width: 500px;
+    height: auto;
+}
+.Nero {
+    width: 500px;
+    height: auto;
+}
+.Casper {
+    width: auto;
+    height: 700px;
+}
+.Maatiaiset {
+    width: auto;
+    height: 700px;
+}
+.kissat {
+    width: 500px;
+    height: auto;
+}
+.koirat {
+    width: 500px;
+    height: auto;
+}
+.ingvar {
+    width: 500px;
+    height: auto;
+} */
