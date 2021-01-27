@@ -1,10 +1,21 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
+ 
 <!DOCTYPE html>
 <html lang="fi">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no" />
 
-        <title>Mun proto sivut - Etusivu</title>
+        <title>Viestittely</title>
 
         <!-- Bootstrapin css -->
         <link rel="stylesheet" href="vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
@@ -20,7 +31,7 @@
 
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="index.html">Etusivu</a>
+                <a class="navbar-brand" href="index.php">Etusivu</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -37,9 +48,6 @@
                       <a class="nav-link" href="kissat.html">kissat <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="messageboard.html">Viestittely</a>
-                    </li>
-                    <li class="nav-item">
                       <a class="nav-link" href="casper.html">Maine Coon</a>
                     </li>
                     <li class="nav-item">
@@ -47,6 +55,15 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="Luna.html">Staffordshirenbullterrieri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="messageboard.php">Viestittely</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="register.php">Rekisteröidy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.php">Kirjaudu sisään</a>
                     </li>
                     
                   </ul>
@@ -65,25 +82,11 @@
 
             <p class="text-center">Täällä voit viestitellä muiden käyttäjien kanssa.<br>
             Kirjaudu ensin sisään ja pääset kirjoittamaan viestejä.<br>
-            Jos et ole vielä rekisteröitynyt niin sen pääset tekemään kirjaumisen alta löytyvästä linkistä.</p>
-
-
-
-            <div id="login" class="col-1-3">
-
-        <form action="login.php" method="post">
-           
-            <input type="email" class="text-center" id="email" name="Email" placeholder="Email" required />
-           
-            <input type="password" class="text-center" id="password" name="Password" placeholder="Password">
-            
-            <button type="submit" class="btn-block">Log in</button>
-
-        </form>
+            Jos et ole vielä rekisteröitynyt niin sen pääset rekisteröitymään alta löytyvästä linkistä.</p>
                
             <ul class="list-unstyled text-right">
-                <li><a href="#">Rekisteröidy tästä</a></li>
-                <li><a href="#">Unohditko salasanasi?</a></li>
+                <li><a href="register.php">Rekisteröidy tästä</a></li>
+                <li><a href="login.php">Oletko jo rekisteröitynyt, kirjaudu sisään tästä</a></li>
             </ul>
                
 

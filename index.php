@@ -37,9 +37,6 @@
                       <a class="nav-link" href="kissat.html">kissat <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="messageboard.html">Viestittely</a>
-                    </li>
-                    <li class="nav-item">
                       <a class="nav-link" href="casper.html">Maine Coon</a>
                     </li>
                     <li class="nav-item">
@@ -47,6 +44,15 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="Luna.html">Staffordshirenbullterrieri</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="messageboard.php">Viestittely</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="register.php">Rekisteröidy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.php">Kirjaudu sisään</a>
                     </li>
                     
                   </ul>
@@ -121,14 +127,14 @@
 
         </div> <!--/.row-->
 
-          
+
+      </div> <!--/.container-->
 
 
-
-          </div> <!--/.container-->
-
-
-
+      <ul class="list-unstyled text-right">
+                <li><a href="#">Rekisteröidy tästä</a></li>
+                <li><a href="#">Unohditko salasanasi?</a></li>
+            </ul>
 
 
         </main>
