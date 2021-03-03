@@ -132,7 +132,7 @@
 
 
       <ul class="list-unstyled text-right">
-                <li><a href="#">Rekisteröidy tästä</a></li>
+                <li><a href="register.php">Rekisteröidy tästä</a></li>
                 <li><a href="#">Unohditko salasanasi?</a></li>
             </ul>
 
@@ -151,6 +151,7 @@
               first.last@example.com<br>
               </address>
               <p>&copy; 2020 MLEfan81</p>
+              <a href="tietosuojaseloste.html">Tietosuojaseloste</a>
 
             </div>
 

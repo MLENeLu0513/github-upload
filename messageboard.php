@@ -134,6 +134,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               first.last@example.com<br>
               </address>
               <p>&copy; 2020 MLEfan81</p>
+              <a href="tietosuojaseloste.html">Tietosuojaseloste</a>
 
             </div>
 
