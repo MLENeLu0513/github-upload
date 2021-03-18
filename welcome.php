@@ -57,7 +57,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                       <a class="nav-link" href="Luna.html">Staffordshirenbullterrieri</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="messageboard.php">Viestittely</a>
+                        <a class="nav-link" href="messageboard.php" target="_blank">Viestittely</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="logout.php">Kirjaudu ulos</a>
@@ -120,14 +120,17 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
           <div class="foot">
 
-            <address>
-              Minna Lehtinen<br>
-              Vaskihuhdantie 1-3<br>
-              00730 Helsinki Finland<br>
-              P: (+358 555 8858 999)<br>
-              first.last@example.com<br>
+          <address>
+              Minna Lehtinen <br />
+              Vaskihuhdantie 1-3 <br />
+              00730 Helsinki Finland <br />
+              P: (+358 555 8858 999) <br />
+              first.last@example.com <br />
               </address>
-              <p>&copy; 2020 MLEfan81</p>
+              <a href="tietosuojaseloste.html" target="_blank">Tietosuojaseloste</a><br />
+              <br />
+              <small>&copy; 2020 MLEfan81</small>
+              <br />
 
             </div>
 
