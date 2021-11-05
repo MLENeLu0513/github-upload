@@ -1,13 +1,14 @@
 body {
-    background-color: rgb(82, 175, 118);
+    background-color: rgb(156, 171, 219);
 }
 footer {
-    background-color: aqua;
+    background-color: rgb(81, 136, 136);
 }
 .container {
     text-align: left;
 }
-.container-fluid {
+.container-fluid,
+.foot {
     max-width: 1140px;
     display: flex;
     justify-content: center;
@@ -55,7 +56,7 @@ input[type="password"] {
     width: 320px;
 }
 .foot {
-    padding-left: 400px;
+    padding-left: 200px;
     padding-top: 25px;
     padding-bottom: 20px;
 }

@@ -13,13 +13,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <html lang="fi">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <title>Tervetuloa!</title>
 
         <!-- Bootstrapin css -->
         <link rel="stylesheet" href="vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles.css" />
 
     </head>
 
@@ -31,7 +31,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="index.php">Etusivu</a>
+                <a class="navbar-brand" href="index.html">Etusivu</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -118,19 +118,21 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
         <footer>
 
-          <div class="foot">
+        <div class="foot">
 
-          <address>
+            <address>
               Minna Lehtinen <br />
-              Vaskihuhdantie 1-3 <br />
-              00730 Helsinki Finland <br />
-              P: (+358 555 8858 999) <br />
-              first.last@example.com <br />
-              </address>
+              Pehtoorintie 1 <br />
+              01510 Vantaa Finland <br />
+              P: (+358 44 5585 460) <br />
+              lehtinenminna25@hotmail.com <br />
+              </address> 
+              <br />
               <a href="tietosuojaseloste.html" target="_blank">Tietosuojaseloste</a><br />
               <br />
               <small>&copy; 2020 MLEfan81</small>
               <br />
+              
 
             </div>
 
